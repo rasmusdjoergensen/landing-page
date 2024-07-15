@@ -2,5 +2,39 @@
     margin: 0;
     border: 0;
     padding: 0;
-    outline: 2px solid orange; /* Temporary */
+    /* outline: 2px solid orange; /* Temporary */
+}
+
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 18px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+li {
+    list-style-type: none; /* Removes bullet from list */
+}
+
+a {
+    color: #E8E7EB;
+    font-size: 18px;
+    text-decoration: none; /* Removes underline from link */
 }
