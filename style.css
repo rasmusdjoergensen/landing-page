@@ -13,7 +13,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 18px 150px;
+    padding: 18px 152px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +22,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -37,4 +38,77 @@ a {
     color: #E8E7EB;
     font-size: 18px;
     text-decoration: none; /* Removes underline from link */
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 84px 152px;
+    gap: 32px;
+    display: flex;
+}
+
+.media-extra {
+    flex-basis: 50%;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 8px 32px;
+    
+}
+
+.image-placeholder {
+    flex-basis: 50%;
+    background-color: #E5E7EB;
+    text-align: center;
+    align-content: center;
+}
+
+.information {
+    padding: 0px 152px 84px;
+    text-align: center;
+}
+
+h2 {
+    padding: 024px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.description {
+    color: #1F2937;
+    font-size: 18px;
+    width: 180px;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    height: 180px;
+    width: 180px;
+    box-sizing: border-box;
+    margin: auto;
 }
