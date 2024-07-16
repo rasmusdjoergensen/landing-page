@@ -154,3 +154,11 @@ h2 {
 .call-to-action .sign-up {
     border: 2px solid white;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    align-content: center;
+    color: white;
+    padding: 36px 152px;
+}
