@@ -112,3 +112,20 @@ h2 {
     box-sizing: border-box;
     margin: auto;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 84px 184px;
+}
+
+.text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+}
